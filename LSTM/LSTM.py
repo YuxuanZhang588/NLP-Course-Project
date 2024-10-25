@@ -72,7 +72,7 @@ def lstm(sequence):
         print("-" * 50)
 
 def main():
-    sequence = ["uh", "good", "good", "not", "not", "bad", "bad", "uh"]
+    sequence = ["uh", "good", "good", "not", "not", "bad", "bad", "bad", "uh"]
     lstm(sequence)
 
 if __name__ == "__main__":

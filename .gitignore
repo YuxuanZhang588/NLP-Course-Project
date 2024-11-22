@@ -1,2 +1,17 @@
 
 final_project/dataset2/dataset_info.json
+final_project/dataset1/data-00000-of-00001.arrow
+final_project/dataset1/dataset_info.json
+final_project/dataset2/data-00000-of-00001.arrow
+final_project/fine-tuned-clinical-bert-ner/model.safetensors
+final_project/full_cleaned_dataset.json
+final_project/results/checkpoint-1425/model.safetensors
+final_project/results/checkpoint-1443/model.safetensors
+final_project/results/checkpoint-1425/optimizer.pt
+*.pt
+*.json
+*.arrow
+final_project/{ACCELERATE_MIN_VERSION}
+final_project/{ACCELERATE_MIN_VERSION}'
+*.arrow
+*.arrow

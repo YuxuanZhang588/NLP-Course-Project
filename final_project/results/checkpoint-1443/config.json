@@ -1,0 +1,48 @@
+{
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "O",
+    "1": "B-MEDICINE_NAME",
+    "2": "I-MEDICINE_NAME",
+    "3": "B-MEDICINE_DOSAGE",
+    "4": "I-MEDICINE_DOSAGE",
+    "5": "B-MEDICINE_FREQUENCY",
+    "6": "I-MEDICINE_FREQUENCY",
+    "7": "B-COURSE_DURATION",
+    "8": "I-COURSE_DURATION"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "B-COURSE_DURATION": 7,
+    "B-MEDICINE_DOSAGE": 3,
+    "B-MEDICINE_FREQUENCY": 5,
+    "B-MEDICINE_NAME": 1,
+    "I-COURSE_DURATION": 8,
+    "I-MEDICINE_DOSAGE": 4,
+    "I-MEDICINE_FREQUENCY": 6,
+    "I-MEDICINE_NAME": 2,
+    "O": 0
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.46.3",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}

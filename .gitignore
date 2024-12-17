@@ -15,3 +15,6 @@ final_project/{ACCELERATE_MIN_VERSION}
 final_project/{ACCELERATE_MIN_VERSION}'
 *.arrow
 *.arrow
+*.zip
+*.csv
+*.safetensors
